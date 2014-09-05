@@ -7,9 +7,9 @@
 .company_logo img{max-height: 84px;}
 .company_name,.back_md{position: relative;bottom:-8px;}
 .back_md{bottom:-18px;}
-.footer{position: fixed;bottom:0;left:0;width: 100%;height:38px;line-height:38px;border-top:2px solid #666;text-align: center;background: #343434;color: #fff;}
+.footer{position: fixed;bottom:0;left:0;width: 100%;height:38px;line-height:38px;border-top:2px solid #666;text-align: center;background: #343434;color: #fff;z-index: 20;}
 .content{width:100%;background: url("../img/cont_bg.jpg") center center repeat-y;min-height:100%;}
-.main{width:1000px;margin:0 auto;min-height:100%;position: relative;}
+.main{width:1000px;margin:0 auto;min-height:100%;position: relative;padding:90px 0 40px 0;}
 .UserImg,.UserImg img{width:40px;height:40px;border-radius:50em;cursor: pointer;}
 .item_box .UserImg,.item_box .UserImg img{width:30px;height:30px;}
 .item{height:60px;border-left:3px solid #91c46b;padding-left: 15px;color: #999;width:270px;margin:0 15px 0 5px;}

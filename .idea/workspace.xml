@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="appstyle.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="appstyle.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/appstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="41" selection-start="3914" selection-end="3914" vertical-scroll-proportion="0.0" vertical-offset="1227" max-vertical-offset="2646">
+            <state line="11" column="77" selection-start="923" selection-end="923" vertical-scroll-proportion="0.31730768" vertical-offset="0" max-vertical-offset="2646">
               <folding />
             </state>
           </provider>
@@ -61,11 +61,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="account.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="31" selection-start="896" selection-end="896" vertical-scroll-proportion="0.059734512" vertical-offset="567" max-vertical-offset="7371">
-              <folding />
+            <state line="256" column="14" selection-start="10612" selection-end="10612" vertical-scroll-proportion="-13.90625" vertical-offset="230" max-vertical-offset="1134">
+              <folding>
+                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,12 +95,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app-list.html" />
-        <option value="$PROJECT_DIR$/account.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/imgauto.js" />
         <option value="$PROJECT_DIR$/css/global.css" />
-        <option value="$PROJECT_DIR$/css/appstyle.css" />
         <option value="$PROJECT_DIR$/steps.html" />
+        <option value="$PROJECT_DIR$/account.html" />
+        <option value="$PROJECT_DIR$/css/appstyle.css" />
       </list>
     </option>
   </component>
@@ -479,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/appstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="41" selection-start="3914" selection-end="3914" vertical-scroll-proportion="0.0" vertical-offset="1227" max-vertical-offset="2646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/steps.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="172" column="66" selection-start="7547" selection-end="7547" vertical-scroll-proportion="13.21875" vertical-offset="2826" max-vertical-offset="3753">
@@ -504,7 +499,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/account.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="896" selection-end="896" vertical-scroll-proportion="0.059734512" vertical-offset="567" max-vertical-offset="7371">
+        <state line="256" column="14" selection-start="10612" selection-end="10612" vertical-scroll-proportion="-13.90625" vertical-offset="230" max-vertical-offset="1134">
+          <folding>
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/appstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="77" selection-start="923" selection-end="923" vertical-scroll-proportion="0.31730768" vertical-offset="0" max-vertical-offset="2646">
           <folding />
         </state>
       </provider>
