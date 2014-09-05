@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>我的账户信息</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+    <div class="headerInner clearfix alignright">
+        <span class="inlineblock company_logo floatleft"><img src="img/1.png"/></span>
+        <span class="inlineblock company_name floatleft font16 marl10 color-3">梅花与明道</span>
+        <span class="back_md marl20 floatleft color-8">No.0123456789</span>
+        <span class="font20 inlineblock p-top5 s_name">企业理财</span>
+        <a href="javascript:;" class="Icon ico-set p-top5" title="设置"></a>
+    </div>
+</div>
+<!--header over-->
+<!--主体begin-->
+<div class="content p-bt20">
+    <div class="main clearfix">
+        <!--我的账户begin-->
+        <div class="account mart30">
+            <a href="javascript:;" class="Icon ico-account"></a>
+            <p>
+                <span class="font20 color-6">我的账户</span>
+                <a href="#" class="marl20 color-0075a9">查看交易记录</a>
+            </p>
+            <div class="item_out p-bt20">
+                <div class="account_top clearfix">
+                    <div class="item floatleft">
+                        <h2 class="font30">35.50</h2>
+                        <p class="clearfix font14 alignright">
+                            <span class="floatleft">昨日收益（元）</span>
+                            <a href="javascript:;" class="color-0075a9 font12">查看收益率</a>
+                        </p>
+                    </div>
+                    <div class="item item2 floatleft">
+                        <h2 class="font30">1,250.00</h2>
+                        <p class="clearfix font14 alignright"><span class="floatleft">累计收益（元）</span></p>
+                    </div>
+                    <div class="item item3 floatleft">
+                        <h2 class="font30">999,525.50</h2>
+                        <p class="clearfix font14 alignright"><span class="floatleft">账户余额（元）</span></p>
+                    </div>
+                </div>
+            </div>
+            <p class="alignright marr30" style="position:relative;top:-65px;">
+                <a href="javascript:;" class="Btn btn-quit">充值</a>
+                <a href="javascript:;" class="Btn btn-sure marl10">提现</a>
+            </p>
+        </div>
+        <!--我的账户over-->
+        <!--账户收益begin-->
+        <div class="account p-top20">
+            <a href="javascript:;" class="Icon ico-account2"></a>
+            <div class="clearfix">
+                <span class="font20 color-6">账户收益</span>
+                <a href="#" class="marl20 color-0075a9">查看交易记录</a>
+                <div class="select floatright marr30 marl10">
+                    <i class="Icon ico-arrow"></i>
+                    <em>近七日</em>
+                    <dl>
+                        <dd>近七日</dd>
+                        <dd>近十日</dd>
+                        <dd>近20日</dd>
+                    </dl>
+                </div>
+                <div class="select floatright marr5">
+                    <i class="Icon ico-arrow"></i>
+                    <em>周收益</em>
+                    <dl>
+                        <dd>周收益</dd>
+                        <dd>月收益</dd>
+                        <dd>日收益</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="item_out mart20 aligncenter" style="z-index: 0"><img src="img/1.jpg"></div>
+        </div>
+        <!--账户收益over-->
+        <!--交易记录begin-->
+        <div class="account mart50">
+            <a href="javascript:;" class="Icon ico-account3"></a>
+            <p><span class="font20 color-6">交易记录</span></p>
+            <table class="account_tab mart20">
+                <tr>
+                    <th>起止日期：</th>
+                    <td>
+                        <div class="floatleft">
+                            <input class="int font14 width-120" readonly value="2014.07.12">
+                            <em>&nbsp;-&nbsp;</em>
+                            <input class="int font14 width-120" readonly value="2014.08.12">
+                        </div>
+                        <ul class="tab_nav floatleft marl20 mart3 clearfix">
+                            <li class="current"><a href="javascript:;">今天</a></li>
+                            <li><a href="javascript:;">最近一个月</a></li>
+                            <li><a href="javascript:;">最近一年</a></li>
+                            <li><a href="javascript:;">一年一前</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>业务类型：</th>
+                    <td>
+                        <ul class="tab_nav clearfix">
+                            <li class="current"><a href="javascript:;">全部</a></li>
+                            <li><a href="javascript:;">充值</a></li>
+                            <li><a href="javascript:;">体现</a></li>
+                            <li><a href="javascript:;">购买</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>复核状态：</th>
+                    <td>
+                        <ul class="tab_nav clearfix">
+                            <li class="current"><a href="javascript:;">全部</a></li>
+                            <li><a href="javascript:;">已通过</a></li>
+                            <li><a href="javascript:;">未通过</a></li>
+                            <li><a href="javascript:;">未复核</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>付款状态：</th>
+                    <td>
+                        <ul class="tab_nav clearfix">
+                            <li class="current"><a href="javascript:;">全部</a></li>
+                            <li><a href="javascript:;">已付款</a></li>
+                            <li><a href="javascript:;">未付款</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <table class="account_de mart20">
+                <thead>
+                    <tr>
+                        <th>申请项目</th>
+                        <th>交易时间</th>
+                        <th>申请金额</th>
+                        <th>申请份额</th>
+                        <th>交易状态</th>
+                        <th>复核状态</th>
+                        <th>支付状态</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>明道25人包购买</td>
+                        <td>2014-08-08   15:24</td>
+                        <td><span>-1,000,000.00</span></td>
+                        <td>2</td>
+                        <td>交易中</td>
+                        <td>已复核</td>
+                        <td>未支付</td>
+                        <td>
+                            <div class="select">
+                                <i class="Icon ico-arrow"></i>
+                                <em>详情</em>
+                                <dl>
+                                    <dd>详情</dd>
+                                    <dd>付款</dd>
+                                    <dd>撤销</dd>
+                                </dl>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>明道25人包购买</td>
+                        <td>2014-08-08   15:24</td>
+                        <td><span>-1,000,000.00</span></td>
+                        <td>2</td>
+                        <td>交易中</td>
+                        <td>已复核</td>
+                        <td>未支付</td>
+                        <td>
+                            <div class="select">
+                                <i class="Icon ico-arrow"></i>
+                                <em>详情</em>
+                                <dl>
+                                    <dd>详情</dd>
+                                    <dd>付款</dd>
+                                    <dd>撤销</dd>
+                                </dl>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>明道25人包购买</td>
+                        <td>2014-08-08   15:24</td>
+                        <td><span>-1,000,000.00</span></td>
+                        <td>2</td>
+                        <td>交易中</td>
+                        <td>已复核</td>
+                        <td>未支付</td>
+                        <td>
+                            <div class="select">
+                                <i class="Icon ico-arrow"></i>
+                                <em>详情</em>
+                                <dl>
+                                    <dd>详情</dd>
+                                    <dd>付款</dd>
+                                    <dd>撤销</dd>
+                                </dl>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>明道25人包购买</td>
+                        <td>2014-08-08   15:24</td>
+                        <td><span>-1,000,000.00</span></td>
+                        <td>2</td>
+                        <td>交易中</td>
+                        <td>已复核</td>
+                        <td>未支付</td>
+                        <td>
+                            <div class="select">
+                                <i class="Icon ico-arrow"></i>
+                                <em>详情</em>
+                                <dl>
+                                    <dd>详情</dd>
+                                    <dd>付款</dd>
+                                    <dd>撤销</dd>
+                                </dl>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--分页器begin-->
+            <div class="pagenation aligncenter mart30 p-bt20">
+                <a href="javascript:;" class="page prev">&lt;</a>
+                <a href="#" class="current">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">7</a>
+                <a href="#">8</a>
+                <a href="#">9</a>
+                <a href="#">100</a>
+                <a href="javascript:;" class="page next">&gt;</a>
+            </div>
+            <!--分页器over-->
+        </div>
+        <!--交易记录over-->
+    </div>
+</div>
+<!--主体over-->
+<!--footer begin-->
+<div class="footer">
+    <p class="aligncenter">明道－企业社会化协作平台版权所有 2012-2014 沪ICP备05009163号</p>
+</div>
+<!--footer over-->
+<!--遮罩层begin-->
+<div class="mask nobg" style="display: none;"></div><!--带有nobg 的mask说明是100%透明的遮罩层，不带nobg则是半透明的-->
+<!--遮罩层over-->
+<!--加载提示 begin-->
+<div class="loading" style="display: none;"><img src="../img/loading2.png">正在加载...</div>
+<!--加载提示 over-->
+</body>
+</html>

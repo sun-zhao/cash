@@ -1,0 +1,92 @@
+/*header footer*/
+.header{width:100%;height:75px;border-bottom: 2px solid #59a7f9;position:fixed;left:0;top:0;z-index: 30;background-color: #fff;}
+.headerInner{width:1000px;margin:0 auto;padding-top:20px;height:55px;}
+.headerInner span.inlineblock{line-height:30px;}
+.s_name{border-right:1px solid #ccc;padding-right:20px;margin-right:15px;}
+.company_logo{width:auto;height:42px;background: url("../img/logobg.jpg");vertical-align: middle;overflow: hidden;}
+.company_logo img{max-height: 84px;}
+.company_name,.back_md{position: relative;bottom:-8px;}
+.back_md{bottom:-18px;}
+.footer{position: fixed;bottom:0;left:0;width: 100%;height:38px;line-height:38px;border-top:2px solid #666;text-align: center;background: #343434;color: #fff;}
+.content{width:100%;background: url("../img/cont_bg.jpg") center center repeat-y;min-height:100%;}
+.main{width:1000px;margin:0 auto;min-height:100%;position: relative;}
+.UserImg,.UserImg img{width:40px;height:40px;border-radius:50em;cursor: pointer;}
+.item_box .UserImg,.item_box .UserImg img{width:30px;height:30px;}
+.item{height:60px;border-left:3px solid #91c46b;padding-left: 15px;color: #999;width:270px;margin:0 15px 0 5px;}
+.item2{border-color:#589999;}
+.item3{border-color:#f27d54;}
+.item h2{color:#5c636b;line-height:30px;padding-bottom:14px;}
+.item_out{border-bottom:1px dashed #ddd;padding-bottom:60px;position: relative;z-index: 2;}
+.account{position:relative;}
+.account_top{background-color:#f6f6f6;padding:20px 0 20px 20px;margin:20px 20px 0 0;}
+.account_tab{width:98%;background: #f6f6f6;}
+.account_tab th{width:60px;}
+.account_tab th,.account_tab td{padding:10px 0 10px 30px;color:#666;height:10px;}
+.tab_nav li{float: left;margin-right:20px;}
+.tab_nav li a{display: inline-block;height:22px;line-height: 22px;padding:0 10px;color: #666;}
+.tab_nav li a:hover{background-color: #cbe2fa;}
+.tab_nav li.current a{background-color: #347cdc;color:#fff;}
+.account_de{width:98%;}
+.account_de thead th{line-height:40px;border-top:1px solid #aaa;border-bottom:1px solid #aaa;color:#333;background-color:#f2f2f2;}
+.account_de th,.account_de td{padding-left:10px;}
+.account_de td{height:40px;border-bottom:1px solid #ddd;}
+.account_de td span{color:#eb6100;}
+.account_de tbody tr:nth-child(2n) td{background-color:#f9fbfe;}
+.Wallpaper{position:absolute;top:77px;bottom:40px;left:0;right:0;}
+.autoImg{position:absolute;overflow: hidden;bottom:0;right:15%;}
+.slogan{width:20%;position: absolute;left:50%;margin-left:-25%;z-index:20;top:20%;}
+.slogan img{width:100%;}
+.reg{display:block;width:180px;height:45px;background: url("../img/reg-btn.png");position: relative;z-index:21;margin:0 auto;margin-top:20%;}
+.reg:hover{background: url("../img/reg-btnh.png");}
+.step{padding-bottom:40px;}
+.step ol li{line-height:40px;margin-left:20px;}
+.step ol li span{color:#888;}
+.next-step,.prev-step{display: inline-block;width:100px;height:32px;background: url("../img/step_btn.png") 0 0;}
+.next-step:hover{background-position:-100px 0;}
+.prev-step{background-position:0 -36px;}
+.prev-step:hover{background-position:-100px -36px;}
+.right_bar{position: fixed;left:85%;top:75px;bottom:35px;border-left:1px solid #e1e1e1;}
+.right_bar table{margin-left:-10px;}
+.right_bar table td{height:100px;}
+.number{display: inline-block;width:19px;height:19px;line-height:19px;font-size:12px;color:#fff;background: url("../img/ico.png") -34px -99px;text-align: center;position: relative;z-index:10;}
+.current .number{width:23px;height:23px;background-position:0 -126px;line-height:23px;left:-2px;}
+.txt_out{position: relative;}
+.right_bar table td .txt{display: block;height:26px;line-height:26px;background:#ccc;color:#fff;position:absolute;top:-2px;right:40px;padding: 0 20px 0 10px;min-width: 100px;opacity: 0;}
+.right_bar table td .txt span{display:block;min-width:200%;}
+.right_bar table td .current .txt{background: #59a7f9;opacity:1;}
+.info{width:100%;}
+.info-plus{background-color:#eee;width:110%;}
+.info tr th{height:40px;font-size:14px;}
+.info tr td{padding-right:20px;font-size:14px;}
+.info tr td .info tr th{width:110px;}
+/*.info tr td .info tr td{padding-right:20px;}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
