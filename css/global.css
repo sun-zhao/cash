@@ -47,6 +47,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .mart30{margin-top:30px!important;}
 .mart45{margin-top:45px!important;}
 .mart50{margin-top:50px!important;}
+.mart100{margin-top:100px!important;}
 .marl10{margin-left:10px!important;}
 .marr5{margin-right:5px!important;}
 .marr10{margin-right:10px!important;}
@@ -54,6 +55,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .marr20{margin-right:20px!important;}
 .marr30{margin-right:30px!important;}
 .marl5{margin-left:5px!important;}
+.marl7{margin-left:7px!important;}
 .marl20{margin-left:20px!important;}
 .marl25{margin-left:25px!important;}
 .marl_20{margin-left:-20px!important;}
@@ -73,7 +75,9 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .width-50{width:50px!important;}
 .width-60{width:60px!important;}
 .width-70{width:70px!important;}
+.width-75{width:75px!important;}
 .width-80{width:80px!important;}
+.width-90{width:90px!important;}
 .width-100{width:100px!important;}
 .width-110{width:110px!important;}
 .width-120{width:120px!important;}
@@ -81,6 +85,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .width-140{width:140px!important;}
 .width-150{width:150px!important;}
 .width-160{width:160px!important;}
+.width-180{width:180px!important;}
 .width-200{width:200px!important;}
 .width-230{width:230px!important;}
 .width-250{width:250px!important;}
@@ -171,6 +176,12 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .ico-check{width:16px;height:16px;background-position: -58px -59px;margin:0 1px 0 10px;top:5px;vertical-align: 2px;}
 .check .ico-check{background-position: -59px -58px;}
 .check.checked .ico-check{background-position: -59px -74px;}
+.ico-ser{width:17px;height:16px;background-position: -34px -126px;}
+.ico-tip{width:12px;height:12px;background-position: -34px -143px;}
+.has-error .ico-tip{background-position: -34px -155px;}
+.has-error .ico-tip{background-position: -34px -155px;}
+.has-general .ico-tip{position: absolute;top:7px;right:-20px;}
+
 /*弹出*/
 .loading{position:fixed;width:160px;height:60px;top:50%;left:50%;margin:-30px 0 0 -80px;line-height: 60px;text-align:center;background: url("../img/mask.png") repeat;border-radius:3px;color:#fff;behavior: url(../css/PIE.htc);}
 .loading img{vertical-align:-6px;width: 23px;margin:0 10px 0 -5px;animation: spin .8s infinite linear;}
@@ -190,18 +201,38 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .TurnTxt{width:96.5%;height:66px;padding:6px 10px;border-radius:4px;}
 .message{width:207px;height:69px;line-height:65px;padding-left:30px;background: url("../img/mesbg.png");position: absolute;bottom:0;right:0;}
 .off{position: absolute;top:6px;right:8px;font-weight: bold;font-size:26px;color:#aaa;cursor: pointer;}
+.mini-btn{display: inline-block;height:24px;line-height:24px;padding:0 10px;border-radius:3px;color:#fff;font-size:12px;background:#347cdc;margin-left:10px;}
+.Preview{background:#f39c0b;}
+.Delete{background:#f53947;}
+
+.search{width:210px;height:26px;border-width:1px;border-style:solid;border-radius:5px;position: relative;z-index: 20;text-align: left;background-color:#fff;}
+.search input,.search .Choosed{width:79%;height:26px;line-height:26px;border:0;border-radius:5px;padding-left:10px;background: none;color: #666;outline: none;}
+.search button{background: none;border:0;cursor: pointer;padding:0;padding-top:3px;border-left:1px solid #ccc;padding-left: 5px;}
+.search button:active{outline:none;}
+.search.current{border-color:#347cdc;}
+.ser_Results{width:100%;position: absolute;background: #fff;border-style: solid;border-width:1px;border-radius:5px;}
+.search .ser_Results{left:-1px;top:28px;z-index: 20;display: none;padding:5px 0;}
+.ser_Results li{line-height: 26px;padding-left:10px;color:#888;cursor: pointer;display: block;}
+.ser_Results li:hover,.ser_Results li.current,.ser_Results li:hover em{color:#333;}
+.ser_Results li.current em{color:red;}
+.ser_Results li:hover,.ser_Results li.current{background-color: #ccc;}
+.ser_Results li em{padding: 0 3px;}
+.search.current .ser_Results{display: block;}
+.select{width:110px;}
+.select .ser_Results{width:95%;}
 /*input*/
 .int{height:26px;line-height: 26px;border:1px solid #ccc;background:#fff;text-indent:10px;color: #333;width: 100%;outline: 0;border-radius:3px;}
 .has-general, .has-success, .has-warning, .has-error{position: relative;}
 .has-general label.control-label{width:100%;z-index: 2;height:26px;line-height:26px;background-color: #fff;position: absolute;top:1px;left:1px;text-align: left;text-indent:5px;cursor:default;color:#aaa;}
+.has-success label.control-label,.has-general label.control-label{display: none;}
 .has-success input{color: #468847;}
 .has-success input,.has-success textarea,.has-success .Textarea{border-color:#468847;}
 .has-warning label.control-label{color:#c09853;display: block;}
 .has-warning input,.has-warning textarea,.has-warning .Textarea{border-color:#c09853;}
 .has-error label.control-label{color: #b94a48;display: block;}
 .has-error input,.has-error textarea,.has-error .Textarea{border-color:#b94a48;}
-.has-general label.control-label,.has-warning label.control-label,.has-error label.control-label{display: inline-block;}
-.has-success label.control-label,.has-general label.control-label{display: none;}
+.has-warning label.control-label,.has-error label.control-label{display: inline-block;}
+
 .int:focus{border-color:#347cdc;box-shadow:0 0 5px #347cdc;}
 .has-error input:focus{box-shadow:0 0 5px #b94a48;}
 .has-warning input:focus{box-shadow:0 0 5px #c09853;}
