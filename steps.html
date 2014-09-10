@@ -79,8 +79,8 @@
         <div class="step">
             <table class="info marl20">
                 <tr>
-                    <th class="width-110">公司名称</th>
-                    <td colspan="3">
+                    <th class="width-110">企业名称</th>
+                    <td colspan="5">
                         <div class="has-general width-500">
                             <input type="text" class="int" placeholder="">
                             <label class="control-label">提示信息</label>
@@ -88,8 +88,33 @@
                     </td>
                 </tr>
                 <tr>
+                    <th class="width-110">证件类型</th>
+                    <td class="width-160">
+                        <select class="int">
+                            <option>营业执照</option>
+                            <option>营业执照</option>
+                            <option>营业执照</option>
+                        </select>
+                    </td>
+                    <th class="width-110">证件号码</th>
+                    <td class="width-160">
+                        <div class="has-general">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                    </td>
+                    <th class="width-50">有效期</th>
+                    <td>
+                        <div class="has-general width-100 floatleft">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                        <span class="check checked marl10"><i class="Icon ico-check marr10"></i>长期有效</span>
+                    </td>
+                </tr>
+                <tr>
                     <th>固定电话</th>
-                    <td colspan="3">
+                    <td colspan="5">
                         <input type="text" class="int width-60">
                         <span>--</span>
                         <input type="text" class="int width-200">
@@ -97,14 +122,14 @@
                 </tr>
                 <tr>
                     <th>营业执照号码</th>
-                    <td class="width-300">
+                    <td class="width-200">
                         <div class="has-general">
                             <input type="text" class="int" placeholder="">
                             <label class="control-label">提示信息</label>
                         </div>
                     </td>
-                    <th class="width-60">有效期</th>
-                    <td>
+                    <th class="width-50">有效期</th>
+                    <td colspan="3">
                         <div class="has-general width-120 floatleft">
                             <input type="text" class="int" placeholder="">
                             <label class="control-label">提示信息</label>
@@ -121,7 +146,7 @@
                         </div>
                     </td>
                     <th>有效期</th>
-                    <td>
+                    <td colspan="3">
                         <div class="has-general width-120 floatleft">
                             <input type="text" class="int" placeholder="">
                             <label class="control-label">提示信息</label>
@@ -138,7 +163,7 @@
                         </div>
                     </td>
                     <th>有效期</th>
-                    <td>
+                    <td colspan="3">
                         <div class="has-general width-120 floatleft">
                             <input type="text" class="int" placeholder="">
                             <label class="control-label">提示信息</label>
@@ -149,15 +174,13 @@
                 <tr>
                     <th>注册地址</th>
                     <td colspan="3">
-                        <div class="has-general width-500">
+                        <div class="has-general">
                             <input type="text" class="int" placeholder="">
                             <label class="control-label">提示信息</label>
                         </div>
                     </td>
-                </tr>
-                <tr>
-                    <th>邮政编码</th>
-                    <td colspan="3">
+                    <th class="width-80">邮政编码</th>
+                    <td>
                         <div class="has-general width-200">
                             <input type="text" class="int" placeholder="">
                             <label class="control-label">提示信息</label>
@@ -165,105 +188,95 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="4">
-                        <table class="info">
-                            <tr>
-                                <th>法人姓名</th>
-                                <td class="width-100">
-                                    <div class="has-general marl10">
-                                        <input type="text" class="int" placeholder="">
-                                        <label class="control-label">提示信息</label>
-                                    </div>
-                                </td>
-                                <th class="width-80">证件类型</th>
-                                <td class="width-100">
-                                    <select class="int">
-                                        <option>营业执照</option>
-                                        <option>营业执照</option>
-                                        <option>营业执照</option>
-                                    </select>
-                                </td>
-                                <th class="width-80">证件号码</th>
-                                <td class="width-200">
-                                    <div class="has-general">
-                                        <input type="text" class="int" placeholder="">
-                                        <label class="control-label">提示信息</label>
-                                    </div>
-                                </td>
-                                <th class="width-80">有效期</th>
-                                <td class="width-120">
-                                    <div class="has-general">
-                                        <input type="text" class="int" placeholder="">
-                                        <label class="control-label">提示信息</label>
-                                    </div>
-                                </td>
-                                <th><span class="check checked marl10"><i class="Icon ico-check marr10"></i>长期有效</span></th>
-                            </tr>
-                        </table>
+                    <th>法人姓名</th>
+                    <td class="width-200">
+                        <div class="has-general">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                    </td>
+                    <th class="width-80">联系电话</th>
+                    <td colspan="3" class="width-100">
+                        <div class="has-general width-160">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="width-80">证件类型</th>
+                    <td>
+                        <select class="int">
+                            <option>营业执照</option>
+                            <option>营业执照</option>
+                            <option>营业执照</option>
+                        </select>
+                    </td>
+                    <th class="width-80">证件号码</th>
+                    <td>
+                        <div class="has-general width-160">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                    </td>
+                    <th class="width-80">有效期</th>
+                    <td class="width-80">
+                        <div class="has-general width-80 floatleft">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                        <span class="check checked"><i class="Icon ico-check marr10"></i>长期有效</span>
                     </td>
                 </tr>
             </table>
             <table class="info info-plus">
                 <tr>
-                    <td colspan="4">
-                        <table class="info">
-                            <tr>
-                                <th class="width-100">管理员姓名</th>
-                                <td class="width-100">
-                                    <div class="has-general marl7">
-                                        <input type="text" class="int" placeholder="">
-                                        <label class="control-label">提示信息</label>
-                                    </div>
-                                </td>
-                                <th class="width-80">证件类型</th>
-                                <td class="width-100">
-                                    <select class="int">
-                                        <option>营业执照</option>
-                                        <option>营业执照</option>
-                                        <option>营业执照</option>
-                                    </select>
-                                </td>
-                                <th class="width-80">证件号码</th>
-                                <td class="width-200">
-                                    <div class="has-general">
-                                        <input type="text" class="int" placeholder="">
-                                        <label class="control-label">提示信息</label>
-                                    </div>
-                                </td>
-                                <th class="width-80">有效期</th>
-                                <td class="width-120">
-                                    <div class="has-general">
-                                        <input type="text" class="int" placeholder="">
-                                        <label class="control-label">提示信息</label>
-                                    </div>
-                                </td>
-                                <th><span class="check checked marl10"><i class="Icon ico-check marr10"></i>长期有效</span></th>
-                            </tr>
-                        </table>
+                    <th class="width-70">管理员姓名</th>
+                    <td class="width-200">
+                        <div class="has-general marl10">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
                     </td>
+                    <th class="width-60">手机号码</th>
+                    <td class="width-200">
+                        <div class="has-general">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                    </td>
+                    <th class="width-80"><a href="#" class="Btn step_btn ie-css3 marr30">获取验证码</a></th>
+                    <th colspan="2" class="width-60">
+                        <span class="floatleft marr10">手机验证码</span>
+                        <div class="has-general width-80 floatleft">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                    </th>
                 </tr>
                 <tr>
-                    <td colspan="4">
-                        <table class="info">
-                            <tr>
-                                <th class="width-60">手机号码</th>
-                                <td class="width-120">
-                                    <div class="has-general">
-                                        <input type="text" class="int" placeholder="">
-                                        <label class="control-label">提示信息</label>
-                                    </div>
-                                </td>
-                                <th class="width-80"><a href="#" class="Btn step_btn ie-css3 marr30">获取验证码</a></th>
-                                <th class="width-100">请填写验证码</th>
-                                <td class="width-100">
-                                    <div class="has-general">
-                                        <input type="text" class="int" placeholder="">
-                                        <label class="control-label">提示信息</label>
-                                    </div>
-                                </td>
-                                <th class="width-350"><span class="check checked marl10"><i class="Icon ico-check marr10"></i>授权使用明道账户登录</span></th>
-                            </tr>
-                        </table>
+                    <th>证件类型</th>
+                    <td>
+                        <select class="int marl10 marr10">
+                            <option>营业执照</option>
+                            <option>营业执照</option>
+                            <option>营业执照</option>
+                        </select>
+                    </td>
+                    <th class="width-60">证件号码</th>
+                    <td class="">
+                        <div class="has-general">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                    </td>
+                    <th class="width-50">有效期</th>
+                    <td class="width-200">
+                        <div class="has-general width-80 floatleft">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                        <span class="check checked"><i class="Icon ico-check marr10"></i>长期有效</span>
                     </td>
                 </tr>
             </table>
