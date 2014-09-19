@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" type="text/css" href="css/appstyle.css">
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
     <script type="text/javascript" src="js/imgauto.js"></script>
 </head>
 <body>
@@ -60,397 +61,382 @@
             </table>
         </div>
         <!--右侧步骤over-->
-        <!--step1 begin-->
-        <div class="step mart50 p-top40">
-            <p class="font16">企业理财提供在线开户功能，开户前，企业需要准备以下文件的扫描件：</p>
-            <ol class="font14 mart30">
-                <li>营业执照副本扫描件<span>（如果是复印件请加盖公章）</span>；</li>
-                <li>银行账户证明文件扫描件<span>（如果是复印件请加盖公章）</span>；</li>
-                <li>法人身份证正反面扫描件<span>（如果是复印件请加盖公章）</span>；</li>
-                <li>授权开户经办人员身份证正反面扫描件<span>（如果是复印件请加盖公章）<br>（授权开户经办人员与法人为同一人的，则准备同一份扫描件即可）</span>；</li>
-                <li>税务登记证副本扫描件<span>（如果是复印件请加盖公章）</span>；</li>
-                <li>组织机构代码证副本扫描件<span>（如果是复印件请加盖公章）</span>。</li>
-            </ol>
-            <p class="font14 color-0075a9 mart50">注：扫描件为图片格式。可以为扫描仪扫描，也可以用相机、手机拍照储存图片格式。单张图片大小不超过2M。</p>
-            <p class="mart50"><a href="#" class="next-step"></a></p>
-        </div>
-        <!--step1 over-->
-        <!--step2 begin-->
-        <div class="step">
-            <table class="info">
-                <tr>
-                    <th class="width-110">企业名称</th>
-                    <td colspan="5">
-                        <div class="has-general width-500">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <th class="width-110">证件类型</th>
-                    <td class="width-160">
-                        <select class="int">
-                            <option>营业执照</option>
-                            <option>营业执照</option>
-                            <option>营业执照</option>
-                        </select>
-                    </td>
-                    <th class="width-110">证件号码</th>
-                    <td class="width-160">
-                        <div class="has-general">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                    <th class="width-50">有效期</th>
-                    <td>
-                        <div class="has-general width-100 floatleft">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                        <span class="check checked marl10"><i class="Icon ico-check marr10"></i>长期有效</span>
-                    </td>
-                </tr>
-                <tr>
-                    <th>固定电话</th>
-                    <td colspan="5">
-                        <input type="text" class="int width-60">
-                        <span>--</span>
-                        <input type="text" class="int width-200">
-                    </td>
-                </tr>
-                <tr>
-                    <th>营业执照号码</th>
-                    <td class="width-200">
-                        <div class="has-general">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                    <th class="width-50">有效期</th>
-                    <td colspan="3">
-                        <div class="has-general width-120 floatleft">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                        <span class="check checked marl10"><i class="Icon ico-check marr10"></i>长期有效</span>
-                    </td>
-                </tr>
-                <tr>
-                    <th>组织机构代码</th>
-                    <td>
-                        <div class="has-general">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                    <th>有效期</th>
-                    <td colspan="3">
-                        <div class="has-general width-120 floatleft">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                        <span class="check marl10"><i class="Icon ico-check marr10"></i>长期有效</span>
-                    </td>
-                </tr>
-                <tr>
-                    <th>税务登记证号码</th>
-                    <td>
-                        <div class="has-general">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                    <th>有效期</th>
-                    <td colspan="3">
-                        <div class="has-general width-120 floatleft">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                        <span class="check marl10"><i class="Icon ico-check marr10"></i>长期有效</span>
-                    </td>
-                </tr>
-                <tr>
-                    <th>注册地址</th>
-                    <td colspan="3">
-                        <div class="has-general">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                    <th class="width-40">邮政编码</th>
-                    <td>
-                        <div class="has-general width-160">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <th>法人姓名</th>
-                    <td class="width-200">
-                        <div class="has-general">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                    <th class="width-80">联系电话</th>
-                    <td colspan="3" class="width-100">
-                        <div class="has-general width-160">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <th class="width-80">证件类型</th>
-                    <td>
-                        <select class="int">
-                            <option>营业执照</option>
-                            <option>营业执照</option>
-                            <option>营业执照</option>
-                        </select>
-                    </td>
-                    <th class="width-80">证件号码</th>
-                    <td>
-                        <div class="has-general width-160">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                    <th class="width-80">有效期</th>
-                    <td class="width-80">
-                        <div class="has-general width-80 floatleft">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                        <span class="check checked"><i class="Icon ico-check marr10"></i>长期有效</span>
-                    </td>
-                </tr>
-                <tr>
-                    <th class="width-70">管理员姓名</th>
-                    <td class="width-200">
-                        <div class="has-general">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                    <th class="width-60">手机号码</th>
-                    <td>
-                        <div class="has-general width-160">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                    <th class="width-50"><a href="#" class="Btn step_btn ie-css3">获取验证码</a></th>
-                    <th colspan="2" class="width-60">
-                        <span class="floatleft marr10">手机验证码</span>
-                        <div class="has-general width-80 floatleft marl10">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </th>
-                </tr>
-                <tr>
-                    <th>证件类型</th>
-                    <td>
-                        <select class="int">
-                            <option>营业执照</option>
-                            <option>营业执照</option>
-                            <option>营业执照</option>
-                        </select>
-                    </td>
-                    <th class="width-60">证件号码</th>
-                    <td class="">
-                        <div class="has-general width-160">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                    <th class="width-50">有效期</th>
-                    <td class="width-200">
-                        <div class="has-general width-80 floatleft">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                        <span class="check checked"><i class="Icon ico-check marr10"></i>长期有效</span>
-                    </td>
-                </tr>
-            </table>
-            <p class="mart30"><span class="check checked"><i class="Icon ico-check marr10 nomarl"></i>我已阅读并接受 <a href="#">《xxxxxxxxx》</a>协议</span></p>
-            <p class="mart20"><a href="#" class="next-step"></a></p>
-        </div>
-        <!--step2 over-->
-        <!--step3 begin-->
-        <div class="step">
-            <table class="info">
-                <tr>
-                    <th class="width-100">公司名称</th>
-                    <td colspan="5">明道科技有限公司</td>
-                </tr>
-                <tr>
-                    <th class="width-100">开户银行</th>
-                    <td class="width-200">
-                        <select class="int">
-                            <option>工商银行</option>
-                            <option>建设银行</option>
-                            <option>农业银行</option>
-                        </select>
-                    </td>
-                    <th class="width-100">查询关键字</th>
-                    <td class="width-200">
-                        <div class="search ie-css3">
-                            <input type="text" placeholder="搜索">
-                            <button><i class="Icon ico-ser"></i></button>
-                            <!--搜索结果begin-->
-                            <div class="ser_Results ie-css3">
-                                <ul>
-                                    <li>1111111<em>按编码</em></li>
-                                    <li><em>A099</em>按编码查询</li>
-                                    <li>符合业界规范的运</li>
-                                    <li>符合业界规范的运</li>
-                                </ul>
+        <div class="step_box">
+            <!--step1 begin-->
+            <div class="step">
+                <p class="font16 p-top40">企业理财提供在线开户功能，开户前，企业需要准备以下文件的扫描件：</p>
+                <ol class="font14 mart30">
+                    <li>营业执照副本扫描件<span>（如果是复印件请加盖公章）</span>；</li>
+                    <li>银行账户证明文件扫描件<span>（如果是复印件请加盖公章）</span>；</li>
+                    <li>法人身份证正反面扫描件<span>（如果是复印件请加盖公章）</span>；</li>
+                    <li>授权开户经办人员身份证正反面扫描件<span>（如果是复印件请加盖公章）<br>（授权开户经办人员与法人为同一人的，则准备同一份扫描件即可）</span>；</li>
+                    <li>税务登记证副本扫描件<span>（如果是复印件请加盖公章）</span>；</li>
+                    <li>组织机构代码证副本扫描件<span>（如果是复印件请加盖公章）</span>。</li>
+                </ol>
+                <p class="font14 color-0075a9 mart30">注：扫描件为图片格式。可以为扫描仪扫描，也可以用相机、手机拍照储存图片格式。单张图片大小不超过2M。</p>
+                <p class="mart30"><a href="#" class="next-step"></a></p>
+            </div>
+            <!--step1 over-->
+            <!--step2 begin-->
+            <div class="step">
+                <table class="info">
+                    <tr>
+                        <th class="width-110">企业名称</th>
+                        <td colspan="5">
+                            <div class="has-general width-500">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
                             </div>
-                            <!--搜索结果over-->
-                        </div>
-                    </td>
-                    <th class="width-100">查询模式</th>
-                    <td>
-                        <select class="int width-160">
-                            <option>省市筛选</option>
-                            <option>建设银行</option>
-                            <option>农业银行</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <th class="width-100">支行网点</th>
-                    <td colspan="3">
-                        <select class="int">
-                            <option>省市筛选</option>
-                            <option>建设银行</option>
-                            <option>农业银行</option>
-                        </select>
-                    </td>
-                    <th colspan="2">联行号：<span>689381</span></th>
-                </tr>
-                <tr>
-                    <th colspan="6" class="color-a p-bt20">
-                        <p class="mart10">如果您的企业开户银行在支行网点的列表中查询不到，您可以尝试不选择省市并按关键字查询。</p>
-                        <p class="mart5">如果仍然查不到，请致电您的银行客服电话询问。</p>
-                    </th>
-                </tr>
-                <tr>
-                    <th class="width-100">银行账号</th>
-                    <td colspan="2">
-                        <div class="has-general has-success">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                            <i class="Icon ico-tip"></i>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <th class="width-100">确认账号</th>
-                    <td colspan="2">
-                        <div class="has-general has-error">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">两次银行账号输入不一致！请重新输入。</label>
-                            <i class="Icon ico-tip"></i>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-            <p class="mart30">
-                <a href="#" class="prev-step"></a>
-                <a href="#" class="next-step marl20"></a>
-            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="width-110">证件类型</th>
+                        <td class="width-160">
+                            <select class="int">
+                                <option>营业执照</option>
+                                <option>营业执照</option>
+                                <option>营业执照</option>
+                            </select>
+                        </td>
+                        <th class="width-110">证件号码</th>
+                        <td class="width-160">
+                            <div class="has-general">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                        <th class="width-50">有效期</th>
+                        <td>
+                            <div class="has-general width-100 floatleft">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                            <span class="check checked marl10"><i class="Icon ico-check marr10"></i>长期有效</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>固定电话</th>
+                        <td colspan="5">
+                            <input type="text" class="int width-60">
+                            <span>--</span>
+                            <input type="text" class="int width-200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>组织机构代码</th>
+                        <td>
+                            <div class="has-general">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                        <th>有效期</th>
+                        <td colspan="3">
+                            <div class="has-general width-120 floatleft">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                            <span class="check marl10"><i class="Icon ico-check marr10"></i>长期有效</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>税务登记证号码</th>
+                        <td>
+                            <div class="has-general">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                        <th>有效期</th>
+                        <td colspan="3">
+                            <div class="has-general width-120 floatleft">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                            <span class="check marl10"><i class="Icon ico-check marr10"></i>长期有效</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>注册地址</th>
+                        <td colspan="3">
+                            <div class="has-general">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                        <th class="width-40">邮政编码</th>
+                        <td>
+                            <div class="has-general width-160">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>法人姓名</th>
+                        <td class="width-200">
+                            <div class="has-general">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                        <th class="width-80">联系电话</th>
+                        <td colspan="3" class="width-100">
+                            <div class="has-general width-160">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="width-80">证件类型</th>
+                        <td>
+                            <select class="int">
+                                <option>营业执照</option>
+                                <option>营业执照</option>
+                                <option>营业执照</option>
+                            </select>
+                        </td>
+                        <th class="width-80">证件号码</th>
+                        <td>
+                            <div class="has-general width-160">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                        <th class="width-80">有效期</th>
+                        <td class="width-80">
+                            <div class="has-general width-80 floatleft">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                            <span class="check checked"><i class="Icon ico-check marr10"></i>长期有效</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="width-70">管理员姓名</th>
+                        <td class="width-200">
+                            <div class="has-general">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                        <th class="width-60">手机号码</th>
+                        <td>
+                            <div class="has-general width-160">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                        <th class="width-50"><a href="#" class="Btn step_btn ie-css3">获取验证码</a></th>
+                        <th colspan="2" class="width-60">
+                            <span class="floatleft marr10">手机验证码</span>
+                            <div class="has-general width-80 floatleft marl10">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>证件类型</th>
+                        <td>
+                            <select class="int">
+                                <option>营业执照</option>
+                                <option>营业执照</option>
+                                <option>营业执照</option>
+                            </select>
+                        </td>
+                        <th class="width-60">证件号码</th>
+                        <td class="">
+                            <div class="has-general width-160">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                        <th class="width-50">有效期</th>
+                        <td class="width-200">
+                            <div class="has-general width-80 floatleft">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                            <span class="check checked"><i class="Icon ico-check marr10"></i>长期有效</span>
+                        </td>
+                    </tr>
+                </table>
+                <p class="mart30"><span class="check checked"><i class="Icon ico-check marr10 nomarl"></i>我已阅读并接受 <a href="#">《xxxxxxxxx》</a>协议</span></p>
+                <p class="mart20"><a href="#" class="next-step"></a></p>
+            </div>
+            <!--step2 over-->
+            <!--step3 begin-->
+            <div class="step">
+                <table class="info">
+                    <tr>
+                        <th class="width-100">公司名称</th>
+                        <td colspan="5">明道科技有限公司</td>
+                    </tr>
+                    <tr>
+                        <th class="width-100">开户银行</th>
+                        <td class="width-200">
+                            <select class="int">
+                                <option>工商银行</option>
+                                <option>建设银行</option>
+                                <option>农业银行</option>
+                            </select>
+                        </td>
+                        <th class="width-100">查询关键字</th>
+                        <td class="width-200">
+                            <div class="search ie-css3">
+                                <input type="text" placeholder="搜索">
+                                <button><i class="Icon ico-ser"></i></button>
+                                <!--搜索结果begin-->
+                                <div class="ser_Results ie-css3">
+                                    <ul>
+                                        <li>1111111<em>按编码</em></li>
+                                        <li><em>A099</em>按编码查询</li>
+                                        <li>符合业界规范的运</li>
+                                        <li>符合业界规范的运</li>
+                                    </ul>
+                                </div>
+                                <!--搜索结果over-->
+                            </div>
+                        </td>
+                        <th class="width-100">查询模式</th>
+                        <td>
+                            <select class="int width-160">
+                                <option>省市筛选</option>
+                                <option>建设银行</option>
+                                <option>农业银行</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="width-100">支行网点</th>
+                        <td colspan="3">
+                            <select class="int">
+                                <option>省市筛选</option>
+                                <option>建设银行</option>
+                                <option>农业银行</option>
+                            </select>
+                        </td>
+                        <th colspan="2">联行号：<span>689381</span></th>
+                    </tr>
+                    <tr>
+                        <th colspan="6" class="color-a p-bt20">
+                            <p class="mart10">如果您的企业开户银行在支行网点的列表中查询不到，您可以尝试不选择省市并按关键字查询。</p>
+                            <p class="mart5">如果仍然查不到，请致电您的银行客服电话询问。</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="width-100">银行账号</th>
+                        <td colspan="2">
+                            <div class="has-general has-success">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                                <i class="Icon ico-tip"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="width-100">确认账号</th>
+                        <td colspan="2">
+                            <div class="has-general has-error">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">两次银行账号输入不一致！请重新输入。</label>
+                                <i class="Icon ico-tip"></i>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <p class="mart30">
+                    <a href="#" class="prev-step"></a>
+                    <a href="#" class="next-step marl20"></a>
+                </p>
+            </div>
+            <!--step3 over-->
+            <!--step4 begin-->
+            <div class="step">
+                <table class="info">
+                    <tr>
+                        <th class="width-200">企业证件扫描件（加盖公章）</th>
+                        <td class="width-350">
+                            <div class="has-general has-success marl20">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">提示信息</label>
+                            </div>
+                        </td>
+                        <td>
+                            <a href="#" class="mini-btn Preview">预览</a>
+                            <a href="#" class="mini-btn Delete">删除</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="width-200">银行账户证明文件（加盖公章）</th>
+                        <td>
+                            <div class="has-general has-error marl20">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">上传图片大小不得超过2M,请重新选择图片</label>
+                            </div>
+                        </td>
+                        <td class="width-160">
+                            <a href="#" class="mini-btn">上传</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="width-200">法人证件扫描件（加盖公章）</th>
+                        <td>
+                            <div class="has-general marl20">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">上传图片大小不得超过2M,请重新选择图片</label>
+                            </div>
+                        </td>
+                        <td class="width-160">
+                            <a href="#" class="mini-btn">上传</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="width-200">管理员证件扫描件（加盖公章）</th>
+                        <td>
+                            <div class="has-general marl20">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">上传图片大小不得超过2M,请重新选择图片</label>
+                            </div>
+                        </td>
+                        <td class="width-160">
+                            <a href="#" class="mini-btn">上传</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="width-200">税务登记证（加盖公章）</th>
+                        <td>
+                            <div class="has-general marl20">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">上传图片大小不得超过2M,请重新选择图片</label>
+                            </div>
+                        </td>
+                        <td class="width-160">
+                            <a href="#" class="mini-btn">上传</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="width-200">组织机构代码证（加盖公章）</th>
+                        <td>
+                            <div class="has-general marl20">
+                                <input type="text" class="int" placeholder="">
+                                <label class="control-label">上传图片大小不得超过2M,请重新选择图片</label>
+                            </div>
+                        </td>
+                        <td class="width-160">
+                            <a href="#" class="mini-btn">上传</a>
+                        </td>
+                    </tr>
+                </table>
+                <p class="mart30">
+                    <a href="#" class="prev-step"></a>
+                    <a href="#" class="Submit marl20"></a>
+                </p>
+            </div>
+            <!--step4 over-->
         </div>
-        <!--step3 over-->
-        <!--step4 begin-->
-        <div class="step">
-            <table class="info">
-                <tr>
-                    <th class="width-200">企业证件扫描件（加盖公章）</th>
-                    <td class="width-350">
-                        <div class="has-general has-success marl20">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="mini-btn Preview">预览</a>
-                        <a href="#" class="mini-btn Delete">删除</a>
-                    </td>
-                </tr>
-                <tr>
-                    <th class="width-200">银行账户证明文件（加盖公章）</th>
-                    <td>
-                        <div class="has-general has-error marl20">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">上传图片大小不得超过2M,请重新选择图片</label>
-                        </div>
-                    </td>
-                    <td class="width-160">
-                        <a href="#" class="mini-btn">上传</a>
-                    </td>
-                </tr>
-                <tr>
-                    <th class="width-200">法人证件扫描件（加盖公章）</th>
-                    <td>
-                        <div class="has-general marl20">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">上传图片大小不得超过2M,请重新选择图片</label>
-                        </div>
-                    </td>
-                    <td class="width-160">
-                        <a href="#" class="mini-btn">上传</a>
-                    </td>
-                </tr>
-                <tr>
-                    <th class="width-200">管理员证件扫描件（加盖公章）</th>
-                    <td>
-                        <div class="has-general marl20">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">上传图片大小不得超过2M,请重新选择图片</label>
-                        </div>
-                    </td>
-                    <td class="width-160">
-                        <a href="#" class="mini-btn">上传</a>
-                    </td>
-                </tr>
-                <tr>
-                    <th class="width-200">税务登记证（加盖公章）</th>
-                    <td>
-                        <div class="has-general marl20">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">上传图片大小不得超过2M,请重新选择图片</label>
-                        </div>
-                    </td>
-                    <td class="width-160">
-                        <a href="#" class="mini-btn">上传</a>
-                    </td>
-                </tr>
-                <tr>
-                    <th class="width-200">组织机构代码证（加盖公章）</th>
-                    <td>
-                        <div class="has-general marl20">
-                            <input type="text" class="int" placeholder="">
-                            <label class="control-label">上传图片大小不得超过2M,请重新选择图片</label>
-                        </div>
-                    </td>
-                    <td class="width-160">
-                        <a href="#" class="mini-btn">上传</a>
-                    </td>
-                </tr>
-            </table>
-            <p class="mart30">
-                <a href="#" class="prev-step"></a>
-                <a href="#" class="Submit marl20"></a>
-            </p>
-        </div>
-        <!--step4 over-->
     </div>
 </div>
 <!--footer begin-->

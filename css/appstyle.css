@@ -1,8 +1,9 @@
 /*header footer*/
-.header{width:100%;height:95px;border-bottom: 2px solid #59a7f9;position:fixed;left:0;top:0;z-index: 30;background-color: #fff;}
-.headerInner{width:1000px;margin:0 auto;padding-top:20px;height:75px;}
+body{overflow: hidden;}
+.header{width:100%;height:85px;border-bottom: 2px solid #59a7f9;position:fixed;left:0;top:0;z-index: 30;background-color: #fff;}
+.headerInner{width:1000px;margin:0 auto;padding-top:10px;height:65px;}
 .headerInner span.inlineblock{line-height:30px;}
-.s_name{border-right:1px solid #ccc;padding-right:20px;margin-right:15px;}
+.s_name{border-right:1px solid #ccc;padding-right:20px;margin-right:15px;position:relative;top:15px;}
 .company_logo{width:auto;height:65px;vertical-align: middle;overflow: hidden;}
 .company_logo img{max-height: 84px;}
 .company_name,.back_md{position: relative;bottom:-8px;}
@@ -38,7 +39,8 @@
 .slogan img{width:100%;}
 .reg{display:block;width:180px;height:45px;background: url("../img/reg-btn.png");position: relative;z-index:21;margin:0 auto;margin-top:20%;}
 .reg:hover{background: url("../img/reg-btnh.png");}
-.step{padding-bottom:40px;}
+.step_box{width:1000px;position: absolute;left:0;top:0;}
+.step{margin-top:80px;}
 .step ol li{line-height:40px;margin-left:20px;}
 .step ol li span{color:#888;}
 .next-step,.prev-step,.Submit,.Experience{display: inline-block;width:100px;height:32px;background: url("../img/step_btn.png") 0 0;}
@@ -60,7 +62,7 @@
 .info{width:95%;}
 .info span{display: inline-block;line-height:26px;}
 .info-plus{background-color:#eee;width:110%;border:10px solid #eee;border-width:10px 0;margin-top:10px;}
-.info tr th{height:40px;font-size:14px;}
+.info tr th{height:35px;font-size:14px;}
 .info tr td{padding-right:20px;font-size:14px;}
 .info tr td .info tr th{width:110px;}
 .info-plus th:first-child{padding-left:20px;}
