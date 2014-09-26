@@ -62,7 +62,7 @@ body{overflow: hidden;}
 .info{width:99%;}
 .info span{display: inline-block;line-height:26px;}
 .info-plus{background-color:#eee;width:110%;border:10px solid #eee;border-width:10px 0;margin-top:10px;}
-.info tr th{height:35px;font-size:14px;}
+.info tr th{height:35px;font-size:14px;padding:5px 0;}
 .info tr td{padding-right:20px;font-size:14px;}
 .info tr td .info tr th{width:110px;}
 .info-plus th:first-child{padding-left:20px;}
