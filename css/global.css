@@ -120,6 +120,7 @@ a.add:hover{text-decoration: underline;}
 .clearfix{zoom:1;}
 .ie-css3,.ie-css3 img{behavior: url(../css/PIE.htc);}
 .line{width: 100%;border-bottom: 1px solid;font-size: 0;line-height: 0;margin:30px 0;}
+.info tr td p.line{width:97%;border-bottom-style: dashed;margin:4px 0;}
 /*分页*/
 .pagenation a{display: inline-block;min-width: 20px;height: 20px;line-height: 20px;color:#a0a0a0;border-radius:50em;}
 .pagenation a:hover,.pagenation a.current{color:#fff;}
