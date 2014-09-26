@@ -59,7 +59,7 @@ body{overflow: hidden;}
 .right_bar table td .txt{display: block;height:26px;line-height:26px;background:#ccc;color:#fff;position:absolute;top:-2px;right:40px;padding: 0 20px 0 10px;min-width: 100px;opacity: 0;}
 .right_bar table td .txt span{display:block;min-width:200%;}
 .right_bar table td .current .txt{background: #59a7f9;opacity:1;}
-.info{width:95%;}
+.info{width:99%;}
 .info span{display: inline-block;line-height:26px;}
 .info-plus{background-color:#eee;width:110%;border:10px solid #eee;border-width:10px 0;margin-top:10px;}
 .info tr th{height:35px;font-size:14px;}
