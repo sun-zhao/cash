@@ -241,7 +241,7 @@ a.add:hover{text-decoration: underline;}
 .has-error input:focus{box-shadow:0 0 5px #b94a48;}
 .has-warning input:focus{box-shadow:0 0 5px #c09853;}
 .has-success input:focus{box-shadow:0 0 5px #468847;}
-
+.error{border:1px solid #b94a48;color:#b94a48;width:200px;height:40px;line-height:40px;position: absolute;top:50%;left:50%;margin:-20px 0 0 -100px;text-align: center;background:#fff;border-radius:3px;box-shadow:0 0 10px #b94a48;}
 
 
 
