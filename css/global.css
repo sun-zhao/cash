@@ -220,6 +220,10 @@ a.add:hover{text-decoration: underline;}
 .search.current .ser_Results{display: block;}
 .select{width:110px;}
 .select .ser_Results{width:95%;}
+.set-table .UserImg{vertical-align:-10px;}
+.set-table .ser_Results li{padding-top:4px;line-height:normal;color:#333;}
+.set-table .ser_Results li em{padding-right:5px;}
+.set-table  .ser_Results{width:115%;}
 /*input*/
 .int{height:26px;line-height: 26px;border:1px solid #ccc;background:#fff;text-indent:10px;color: #333;width: 100%;outline: 0;border-radius:2px;}
 .has-general, .has-success, .has-warning, .has-error{position: relative;}
