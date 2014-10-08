@@ -35,7 +35,6 @@
                         <h2 class="font30">35.50</h2>
                         <p class="clearfix font14 alignright">
                             <span class="floatleft">昨日收益（元）</span>
-                            <a href="javascript:;" class="color-0075a9 font12">查看收益率</a>
                         </p>
                     </div>
                     <div class="item item2 floatleft">
@@ -60,24 +59,34 @@
             <div class="clearfix">
                 <span class="font20 color-6">账户收益</span>
                 <a href="#" class="marl20 color-0075a9">查看交易记录</a>
-                <div class="select floatright marr30 marl10">
-                    <i class="Icon ico-arrow"></i>
-                    <em>近七日</em>
-                    <dl>
-                        <dd>近七日</dd>
-                        <dd>近十日</dd>
-                        <dd>近20日</dd>
-                    </dl>
-                </div>
-                <div class="select floatright marr5">
-                    <i class="Icon ico-arrow"></i>
-                    <em>周收益</em>
-                    <dl>
-                        <dd>周收益</dd>
-                        <dd>月收益</dd>
-                        <dd>日收益</dd>
-                    </dl>
-                </div>
+                <table class="earn floatright marr30">
+                    <tr>
+                        <th>七日年化收益率：</th>
+                        <td><span>4.123%</span></td>
+                    </tr>
+                    <tr>
+                        <th>日每万份净值收益：</th>
+                        <td><span>1.456</span></td>
+                    </tr>
+                </table>
+                <!--<div class="select floatright marr30 marl10">-->
+                    <!--<i class="Icon ico-arrow"></i>-->
+                    <!--<em>近七日</em>-->
+                    <!--<dl>-->
+                        <!--<dd>近七日</dd>-->
+                        <!--<dd>近十日</dd>-->
+                        <!--<dd>近20日</dd>-->
+                    <!--</dl>-->
+                <!--</div>-->
+                <!--<div class="select floatright marr5">-->
+                    <!--<i class="Icon ico-arrow"></i>-->
+                    <!--<em>周收益</em>-->
+                    <!--<dl>-->
+                        <!--<dd>周收益</dd>-->
+                        <!--<dd>月收益</dd>-->
+                        <!--<dd>日收益</dd>-->
+                    <!--</dl>-->
+                <!--</div>-->
             </div>
             <div class="item_out mart20 aligncenter" style="z-index: 0"><img src="img/1.jpg"></div>
         </div>
@@ -341,7 +350,7 @@
 </div>
 <!--体现弹出begin over-->
 <!--付款begin-->
-<div class="pop" style="display: ;">
+<div class="pop" style="display:none;">
     <div class="popIn" style="min-height:250px;">
         <a href="javascript:;" class="off">×</a>
         <p class="aligncenter font14 mart50">确认从企业理财账户中支付 <span class="add"> 1,000,000.00 </span>元？</p>
@@ -375,7 +384,7 @@
 </div>
 <!--付款over-->
 <!--遮罩层begin-->
-<div class="mask" style="display:block;"></div><!--带有nobg 的mask说明是100%透明的遮罩层，不带nobg则是半透明的-->
+<div class="mask" style="display:none;"></div><!--带有nobg 的mask说明是100%透明的遮罩层，不带nobg则是半透明的-->
 <!--遮罩层over-->
 <!--加载提示 begin-->
 <div class="loading" style="display: none;"><img src="../img/loading2.png">正在加载...</div>
