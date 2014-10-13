@@ -33,6 +33,10 @@ body{overflow: hidden;}
 .account_de td{height:40px;border-bottom:1px solid #ddd;}
 .account_de td span{color:#eb6100;}
 .account_de tbody tr:nth-child(2n) td{background-color:#f9fbfe;}
+.tab_list span{margin-right:20px;cursor: pointer;padding-left:5px;}
+.tab_list span:hover,.tab_list span.current{color:#347cdc;}
+.tab_list span em{display:inline-block;font-size:0;width:0;border-left:6px solid #fff;border-top:5px solid #fff;border-bottom:5px solid #fff;position:relative;top:-2px;left:-4px;}
+.tab_list span:hover em,.tab_list span.current em{border-left-color:#347cdc;}
 .Wallpaper{position:absolute;top:77px;bottom:40px;left:0;right:0;}
 .autoImg{position:absolute;overflow: hidden;bottom:0;right:15%;}
 .slogan{width:20%;position: absolute;left:50%;margin-left:-25%;z-index:20;top:20%;}
