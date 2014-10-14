@@ -47,13 +47,15 @@ body{overflow: hidden;}
 .step{margin-top:80px;}
 .step ol li{line-height:40px;margin-left:20px;}
 .step ol li span{color:#888;}
-.next-step,.prev-step,.Submit,.Experience{display: inline-block;width:100px;height:32px;background: url("../img/step_btn.png") 0 0;}
+.next-step,.prev-step,.Submit,.Experience,.fail{display: inline-block;width:100px;height:32px;background: url("../img/step_btn.png") 0 0;}
 .next-step:hover{background-position:-100px 0;}
 .prev-step{background-position:0 -36px;}
 .prev-step:hover{background-position:-100px -36px;}
 .Submit{background-position:0 -70px;}
-.Experience{width:180px;height:45px;background-position:0 -105px;}
+.Experience,.fail{width:180px;height:45px;background-position:0 -105px;}
 .Experience:hover{background-position:0 -156px;}
+.fail{background-position:0 -213px;}
+.fail:hover{background-position:0 -265px;}
 .right_bar{position: absolute;right:30px;top:75px;bottom:35px;border-left:1px solid #e1e1e1;z-index:10;}
 .right_bar table{margin-left:-10px;}
 .right_bar table td{height:100px;}
