@@ -33,6 +33,7 @@ body{overflow: hidden;}
 .account_de td{height:40px;border-bottom:1px solid #ddd;}
 .account_de td span{color:#eb6100;}
 .account_de tbody tr:nth-child(2n) td{background-color:#f9fbfe;}
+.account_de .select{background:none;}
 .tab_list span{margin-right:20px;cursor: pointer;padding-left:5px;}
 .tab_list span:hover,.tab_list span.current{color:#347cdc;}
 .tab_list span em{display:inline-block;font-size:0;width:0;border-left:6px solid #fff;border-top:5px solid #fff;border-bottom:5px solid #fff;position:relative;top:-2px;left:-4px;}
