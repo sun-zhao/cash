@@ -6,6 +6,28 @@
     <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" type="text/css" href="css/appstyle.css">
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $(function(){
+          //    nav 滑动线条移动
+            $NavA=$('.nav a');
+            $Current = $('.nav a.current');
+            $CurNum = $Current.index()-1;
+            function BorderBt(){
+                $('.borderBt').animate({left:$CurNum*80},200);
+            }
+            BorderBt();
+            $NavA.click(function(){
+                BorderBt();
+            });
+            $NavA.hover(function(){
+               var  $this = $(this);
+                var thisNum = $this.index()-1;
+                $('.borderBt').stop().animate({left:thisNum*80},200);
+            },function(){
+                $('.borderBt').stop().animate({left:$CurNum*80},200);
+            });
+        });
+    </script>
 </head>
 <body class="visible">
 <!--header begin-->
@@ -14,7 +36,7 @@
         <span class="inlineblock company_logo floatleft"><img src="img/1.png"/></span>
         <span class="inlineblock company_name floatleft font16 marl10 color-3">梅花与明道</span>
         <span class="back_md marl20 floatleft color-8">No.0123456789</span>
-        <span class="font20 inlineblock p-top5 s_name">企业理财</span>
+        <span class="font20 inlineblock s_name">企业理财</span>
         <a href="javascript:;" class="Icon ico-set p-top5" title="设置"></a>
     </div>
 </div>
@@ -193,8 +215,9 @@
 <!--体现弹出begin over-->
 <!--付款begin-->
 <div class="pop" style="display:none;">
+    <a href="javascript:;" class="off">×</a>
     <div class="popIn" style="min-height:250px;">
-        <a href="javascript:;" class="off">×</a>
+        <p class="title">付款</p>
         <p class="aligncenter font14 mart50">确认从企业理财账户中支付 <span class="add"> 1,000,000.00 </span>元？</p>
         <table class="set-table mar-auto mart50">
             <tr>
@@ -225,6 +248,205 @@
     </div>
 </div>
 <!--付款over-->
+<!--set begin-->
+<div class="pop" style="display: ;">
+    <a href="javascript:;" class="off">×</a>
+    <div class="popIn" style="min-height:630px;">
+        <div class="TopBar mart10">
+            <div class="nav clearfix color-8 font14">
+                <em class="borderBt" style="left: 80px;"></em>
+                <a href="#">设置角色</a>
+                <a href="#" class="current">帐户安全</a>
+            </div>
+        </div>
+        <div class="set-box">
+            <table class="set-table set-table2">
+                <tr>
+                    <th>管理员：</th>
+                    <td>
+                        <div class="User_box">
+                            <span class="UserImg"><img src="img/1.png"/></span>
+                            <em class="inlineblock width-80 marl5">刘德华</em>
+                            <a href="javascript:;" title="删除"><i class="Icon ico-del"></i></a>
+                        </div>
+                        <p class="color-a">经办人员角色描述</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>经办员：</th>
+                    <td>
+                        <div class="search ie-css3">
+                            <input type="text" placeholder="搜索">
+                            <button><i class="Icon ico-ser"></i></button>
+                            <!--搜索结果begin-->
+                            <div class="ser_Results ie-css3">
+                                <ul>
+                                    <li class="current">
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--搜索结果over-->
+                        </div>
+                        <p class="color-a">经办人员角色描述</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>复核员：</th>
+                    <td>
+                        <div class="search ie-css3">
+                            <input type="text" placeholder="搜索">
+                            <button><i class="Icon ico-ser"></i></button>
+                            <!--搜索结果begin-->
+                            <div class="ser_Results ie-css3">
+                                <ul>
+                                    <li class="current">
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                    <li>
+                                        <span class="UserImg"><img src="img/1.png"/></span>
+                                        <em>刘德华</em>
+                                        <span>（市场部）经理</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--搜索结果over-->
+                        </div>
+                        <p class="color-a">经办人员角色描述</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="set-box" style="display: none;">
+            <table class="set-table">
+                <tr>
+                    <th>购买明道产品的限额</th>
+                    <td>
+                        <div class="has-general marl10 width-120">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                    </td>
+                    <td>元/日</td>
+                </tr>
+                <tr>
+                    <th>提现到银行卡的限额</th>
+                    <td>
+                        <div class="has-general marl10 width-120">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                    </td>
+                    <td>元/日</td>
+                </tr>
+                <tr>
+                    <th>请填写验证码</th>
+                    <td>
+                        <div class="has-general marl10 width-120">
+                            <input type="text" class="int" placeholder="">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="Btn step_btn ie-css3">获取验证码</a>
+                    </td>
+                </tr>
+            </table>
+            <p class="mart30 marl20"><span class="check checked"><i class="Icon ico-check marr10 nomarl"></i>我已阅读并接受 <a href="#">《xxxxxxxxx》</a>协议</span></p>
+        </div>
+        <p class="mart30 marl90"><a href="#" class="Btn btn-make btn-sure">提交修改</a></p>
+    </div>
+</div>
+<!--set over-->
 <!--遮罩层begin-->
 <div class="mask" style="display:none;"></div><!--带有nobg 的mask说明是100%透明的遮罩层，不带nobg则是半透明的-->
 <!--遮罩层over-->
