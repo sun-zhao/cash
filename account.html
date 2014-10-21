@@ -7,24 +7,49 @@
     <link rel="stylesheet" type="text/css" href="css/appstyle.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript">
-        $(function(){
-          //    nav 滑动线条移动
-            $NavA=$('.nav a');
+        $(function () {
+            //    nav 滑动线条移动
+            $NavA = $('.nav a');
             $Current = $('.nav a.current');
-            $CurNum = $Current.index()-1;
-            function BorderBt(){
-                $('.borderBt').animate({left:$CurNum*80},200);
+            $CurNum = $Current.index() - 1;
+            function BorderBt() {
+                $('.borderBt').animate({left: $CurNum * 80}, 200);
             }
+
             BorderBt();
-            $NavA.click(function(){
+            $NavA.click(function () {
                 BorderBt();
             });
-            $NavA.hover(function(){
-               var  $this = $(this);
-                var thisNum = $this.index()-1;
-                $('.borderBt').stop().animate({left:thisNum*80},200);
-            },function(){
-                $('.borderBt').stop().animate({left:$CurNum*80},200);
+            $NavA.hover(function () {
+                var $this = $(this);
+                var thisNum = $this.index() - 1;
+                $('.borderBt').stop().animate({left: thisNum * 80}, 200);
+            }, function () {
+                $('.borderBt').stop().animate({left: $CurNum * 80}, 200);
+            });
+            //点击展开下拉菜单
+            $('.DropDown').click(function () {
+                var $this = $(this);
+                if ($this.hasClass('current')) {
+                    $this.removeClass('current');
+                    $this.find('.DropList').stop().fadeOut();
+                } else {
+                    $this.addClass('current');
+                    $this.find('.DropList').stop().fadeIn();
+                }
+                $this.next('.DropDown').removeClass('current').find('.DropList').stop().fadeOut();
+                $this.prev('.DropDown').removeClass('current').find('.DropList').stop().fadeOut();
+            });
+            function D_hide() {
+                $DropDown = $('.DropDown');
+                $DropDown.removeClass('current');
+                $DropDown.find('.DropList').stop().fadeOut();
+            }
+
+            $(document).bind('click.area', function (e) {
+                if ($(e.target).closest('.DropDown').length == 0) {
+                    D_hide();
+                }
             });
         });
     </script>
@@ -32,12 +57,29 @@
 <body class="visible">
 <!--header begin-->
 <div class="header">
-    <div class="headerInner clearfix alignright">
-        <span class="inlineblock company_logo floatleft"><img src="img/1.png"/></span>
-        <span class="inlineblock company_name floatleft font16 marl10 color-3">梅花与明道</span>
-        <span class="back_md marl20 floatleft color-8">No.0123456789</span>
-        <span class="font20 inlineblock s_name">企业理财</span>
-        <a href="javascript:;" class="Icon ico-set p-top5" title="设置"></a>
+    <div class="headerInner clearfix">
+        <span class="inlineblock company_logo"><img src="https://img.mingdao.com/ProjectLogo/default.gif"/></span>
+        <span class="inlineblock company_name font16 marl20 color-3">梅花与明道</span>
+        <span class="back_md marl20 color-8">No.0123456789</span>
+        <!--右侧头像和发起按钮 begin-->
+        <div class="headerRight floatright clearfix">
+            <!--头像 begin-->
+            <div class="DropDown clearfix floatleft marr20">
+                <span class="UserImg block floatleft ie-css3"><img src="img/1.png"></span>
+                <div class="floatleft marl10 color-3">
+                    <p>欢迎回来</p>
+                    <p>刘德华</p>
+                </div>
+            </div>
+            <!--头像 over-->
+            <!--plus btn begin-->
+            <div class="DropDown clearfix noborder floatright" style="width:auto;">
+                <span class="UserImg block"><i class="Icon ico-set"></i></span>
+            </div>
+            <!--plus btn over-->
+        </div>
+        <!--右侧头像和发起按钮 over-->
+        <span class="back_md floatright font22 color-3">企业理财</span>
     </div>
 </div>
 <!--header over-->
@@ -45,7 +87,7 @@
 <div class="content">
     <div class="main clearfix">
         <!--我的账户begin-->
-        <div class="account mart30">
+        <div class="account">
             <a href="javascript:;" class="Icon ico-account"></a>
             <p>
                 <span class="font20 color-6">我的账户</span>
@@ -249,7 +291,7 @@
 </div>
 <!--付款over-->
 <!--set begin-->
-<div class="pop" style="display: ;">
+<div class="pop" style="display:;">
     <a href="javascript:;" class="off">×</a>
     <div class="popIn" style="min-height:630px;">
         <div class="TopBar mart10">
