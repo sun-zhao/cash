@@ -14,10 +14,11 @@ body{overflow: hidden;}
 .DropDown{position: relative;z-index: 20;width:130px;border-right: 1px solid #ccc;border-left: 1px solid #ccc;padding-left:20px;margin-left:20px;}
 .DropDown p{line-height:20px;}
 .DropDown .DropList{position: absolute;width:98px;z-index: 20;top:60px;left:-28px;display: none;background: url("../img/dropdown.png") 0 bottom no-repeat;}
-.DropDown .DropList .ico-arrow{position: absolute;left:0;top:-14px;width:98px;height:14px;background-position:1px -378px;}
+.DropDown .DropList .ico-arrow{position: absolute;left:0;top:-14px;width:98px;height:14px;background-position:1px -208px;border:0;background-image: url('../img/ico.png');}
 .DropDown .DropList ul{margin:0 5px;padding:0 0 8px 0;}
 .DropDown .DropList li{margin:5px 0;}
 .DropDown .DropList li a{display:block;height:30px;line-height:30px;color:#666;text-align:center;font-size:12px;}
+.DropDown .DropList li a:hover{background-color: #edf5fe;}
 .DropDown.current .ico-set{background-position:-40px -168px;}
 .DropDown.noborder{margin:0;padding:0 20px 0 0;}
 .footer{position: fixed;bottom:0;left:0;width: 100%;height:38px;line-height:38px;border-top:2px solid #666;text-align: center;background: #343434;color: #fff;z-index: 20;}
