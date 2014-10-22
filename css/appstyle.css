@@ -8,7 +8,7 @@ body{overflow: hidden;}
 .company_logo img{height:45px;}
 .company_name,.back_md{position: relative;}
 .back_md.font22{font-size:22px;color:#333;float: right;height:40px;line-height:40px;}
-.UserImg,.UserImg img{width:40px;height:40px;border-radius:50em;cursor: pointer;}
+.UserImg,.UserImg img{width:40px;height:40px;border-radius:50em;}
 .item_box .UserImg,.item_box .UserImg img{width:30px;height:30px;}
 .set-box .UserImg,.set-box .UserImg img{width:30px;height:30px;}
 .DropDown{position: relative;z-index: 20;width:130px;border-right: 1px solid #ccc;border-left: 1px solid #ccc;padding-left:20px;margin-left:20px;}
