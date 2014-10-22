@@ -195,7 +195,7 @@ a.add:hover{text-decoration: underline;}
 .contact .mask{width:60px;height:60px;line-height:60px;text-align: center;color: #fff;border-radius: 3px;position: absolute;font-size: 30px;top:50%;left:50%;margin:-30px 0 0 -30px;}
 .pop{position:absolute;border-radius:4px;z-index:120;left:50%;top:50%;width:600px;margin:-275px 0 0 -300px;background-color: #fff;border:1px solid #347cdc;border-radius:4px;}
 .popIn{padding: 10px 15px;padding-top:0;min-height:300px;}
-.title{display:block;height:35px;line-height:35px;font-size: 14px;border-bottom: 1px solid #ddd;}
+.title{display:block;height:35px;line-height:35px;font-size: 14px;border-bottom: 1px solid #ddd;padding:0 10px;font-weight:bold;}
 .company_info{width:270px;margin:0 auto;color:#666;}
 .company_info th{line-height:20px;text-align: right;font-size:13px;}
 .company_info td{text-align:left;padding-left:20px;font-size:13px;}
@@ -204,7 +204,7 @@ a.add:hover{text-decoration: underline;}
 .text{border-width:1px;border-style: solid;}
 .TurnTxt{width:96.5%;height:66px;padding:6px 10px;border-radius:4px;}
 .message{width:207px;height:69px;line-height:65px;padding-left:30px;background: url("../img/mesbg.png");position: absolute;bottom:0;right:0;}
-.off{position: absolute;top:5px;right:5px;font-weight: bold;font-size:24px;color:#347cdc;cursor: pointer;}
+.off{position: absolute;top:8px;right:5px;font-weight: bold;font-size:24px;color:#347cdc;cursor: pointer;}
 .mini-btn{display: inline-block;height:24px;line-height:24px;padding:0 10px;border-radius:3px;color:#fff;font-size:12px;background:#347cdc;margin-left:10px;}
 .Preview{background:#f39c0b;}
 .Delete{background:#f53947;}

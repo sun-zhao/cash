@@ -86,17 +86,13 @@ body{overflow: hidden;}
 .info-plus th:first-child{padding-left:20px;}
 .info-plus th:last-child{width:198px;}
 /*.info tr td .info tr td{padding-right:20px;}*/
-.set-box{padding:20px 20px 30px 0;}
+.set-box{padding:20px 20px 30px 0;border-bottom:1px solid #ccc;transition:0.4s;-webkit-transition:0.4s;}
 table.set-table td,table.set-table th{padding-left:10px;height:50px;color:#444;}
 table.set-table th{color:#333;font-size:14px;padding-left:20px;}
 table.set-table td a{display:inline-block;padding:5px;}
 table.set-table td a.step_btn{height:26px;line-height:26px;padding:1px 0;}
 table.set-table td p{color:#666;line-height:25px;}
 table.set-table td p.color-a{padding-left:2px;}
-table.set-table2 td,table.set_table2 th{height:70px;}
-table.set-table2 th{padding-top:10px;vertical-align:top;}
-table.set-table2 td .search{margin-top:-5px;}
-table.set-table2 td .User_box{margin-top:-8px;}
 .loading{position:fixed;width:160px;height:30px;padding-top:10px;top:50%;left:50%;margin:-30px 0 0 -80px;text-align:center;background: url("../img/mask.png") repeat;border-radius:3px;color:#fff;behavior: url(../css/PIE.htc);}
 .loading img{vertical-align:-4px;width: 18px;margin:0 10px 0 -5px;}
 .earn{margin-top:-10px;}
