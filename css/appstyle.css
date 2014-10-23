@@ -91,7 +91,7 @@ body{overflow: hidden;}
 table.set-table td,table.set-table th{padding-left:10px;height:50px;color:#444;}
 table.set-table th{color:#333;font-size:14px;padding-left:20px;}
 table.set-table td a{display:inline-block;padding:5px;}
-table.set-table td a.step_btn{height:26px;line-height:26px;padding:1px 0;}
+table.set-table td a.step_btn{height:26px;line-height:26px;padding:1px 0;min-width:90px;}
 table.set-table td p{color:#666;line-height:25px;}
 table.set-table td p.color-a{padding-left:2px;}
 .loading{position:fixed;width:160px;height:30px;padding-top:10px;top:50%;left:50%;margin:-30px 0 0 -80px;text-align:center;background: url("../img/mask.png") repeat;border-radius:3px;color:#fff;behavior: url(../css/PIE.htc);}
