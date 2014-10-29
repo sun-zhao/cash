@@ -108,9 +108,9 @@ table.set-table td p.color-a{padding-left:2px;}
 .seal{display: block;position:absolute;right:30px;bottom:-50px;}
 .seal img{width:130px;height:130px;}
 .nav{border-bottom: 1px solid #ddd;width:100%;position: relative;}
-.nav a{display: inline-block;line-height:26px;height:26px;width:80px;text-align: center;float: left;}
+.nav a{display: inline-block;line-height:26px;height:26px;width:80px;text-align: center;float: right;}
 .nav a.current{color:#59a7f9;}
-.nav .borderBt{width:80px;font-size:0;line-height:0;border-bottom:2px solid #59a7f9;position: absolute;bottom:-1px;left:0;}
+.nav .borderBt{width:80px;font-size:0;line-height:0;border-bottom:2px solid #59a7f9;position: absolute;bottom:-1px;right:0;}
 
 
 
