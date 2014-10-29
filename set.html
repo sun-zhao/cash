@@ -6,6 +6,28 @@
     <link rel="stylesheet" type="text/css" href="css/global.css">
     <link rel="stylesheet" type="text/css" href="css/appstyle.css">
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            //    nav 滑动线条移动
+            $NavA=$('.nav a');
+            $Current = $('.nav a.current');
+            $CurNum = $Current.index()-1;
+            function BorderBt(){
+                $('.borderBt').animate({left:$CurNum*80},200);
+            }
+            BorderBt();
+            $NavA.click(function(){
+                BorderBt();
+            });
+            $NavA.hover(function(){
+               var  $this = $(this);
+                var thisNum = $this.index()-1;
+                $('.borderBt').stop().animate({left:thisNum*80},200);
+            },function(){
+                $('.borderBt').stop().animate({left:$CurNum*80},200);
+            });
+        });
+    </script>
 </head>
 <body>
 <!--header begin-->
@@ -38,7 +60,15 @@
 <!--header over-->
 <div class="content nobg">
     <div class="main">
-        <div class="set-box">
+        <div class="TopBar">
+            <div class="nav clearfix color-8 font14 width-auto">
+                <em class="borderBt" style="left:0;"></em>
+                <a href="#">基本设置</a>
+                <a href="#">添加组件</a>
+                <a href="#" class="current">编辑组件</a>
+            </div>
+        </div>
+        <div class="set-box mart20">
             <p class="font16 color-3">角色设置</p>
             <table class="set-table mart30">
                 <tr>
