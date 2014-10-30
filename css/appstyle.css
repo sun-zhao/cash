@@ -36,7 +36,7 @@ body{overflow: hidden;}
 .account_tab th{width:60px;}
 .account_tab th,.account_tab td{padding:10px 0 10px 30px;color:#666;height:10px;}
 .tab_nav li{float: left;margin-right:20px;}
-.tab_nav li a{display: inline-block;height:22px;line-height: 22px;padding:0 10px;color: #666;}
+.tab_nav li a{display: inline-block;min-width:50px;height:22px;line-height: 22px;padding:0 10px;color: #666;text-align: center;}
 .tab_nav li a:hover{background-color: #cbe2fa;}
 .tab_nav li.current a{background-color: #347cdc;color:#fff;}
 .account_de{width:98%;}
