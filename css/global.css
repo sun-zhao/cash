@@ -181,6 +181,7 @@ a.add:hover{text-decoration: underline;}
 .ico-r{width:15px;height:26px;background-position:-59px -27px;position: absolute;top:-1px;right:-15px;}
 .right_bar table td .current .ico-r{background-position:-59px 0;}
 .check{cursor: pointer;}
+.checked .ico-check{background-position: -78px -74px;}
 .ico-check{width:16px;height:16px;background-position: -78px -58px;margin:0 1px 0 10px;top:5px;vertical-align: 2px;}
 .check .ico-check{background-position: -59px -58px;}
 .check.checked .ico-check{background-position: -59px -74px;}
