@@ -109,9 +109,9 @@ table.set-table td p.color-a{padding-left:2px;}
 .seal img{width:130px;height:130px;}
 .nav{border-bottom: 1px solid #ddd;width:100%;position: relative;}
 .nav a{display: inline-block;line-height:26px;height:26px;width:80px;text-align: center;float: right;border-bottom:2px solid #fff;transition:0.3s;}
-.nav a:hover{border-bottom:2px solid #59a7f9;transition:0.3s;}
+.nav a:hover,.nav a.current{border-bottom:2px solid #59a7f9;transition:0.3s;}
 .nav a.current{color:#59a7f9;}
-.navl a{float: left;}
+.popIn .nav a{float: left;}
 
 
 
