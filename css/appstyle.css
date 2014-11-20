@@ -112,7 +112,15 @@ table.set-table td p.color-a{padding-left:2px;}
 .nav a:hover,.nav a.current{border-bottom:2px solid #59a7f9;transition:0.3s;}
 .nav a.current{color:#59a7f9;}
 .popIn .nav a{float: left;}
-
+/*400 500*/
+.error_box{width:650px;height:420px;position: absolute;top:50%;left:50%;margin:-250px 0 0 -325px;}
+.error_box a{font-size:20px;color:#666;display: inline-block;margin:0 20px;}
+.error_box a .ico-back,.error_box a .ico-index{width:16px;height:16px;margin-right:5px;}
+.error_box a .ico-back{background-position:-80px -121px;}
+.error_box a .ico-index{background-position:-101px -121px;}
+.error_box a:hover .ico-back{background-position:-80px -100px;}
+.error_box a:hover .ico-index{background-position:-101px -100px;}
+.error_box a:hover{color:#347cdc;}
 
 
 
