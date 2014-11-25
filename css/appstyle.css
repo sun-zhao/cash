@@ -57,8 +57,8 @@ body{overflow: hidden;}
 .slogan img{width:100%;}
 .reg{display:block;width:180px;height:45px;background: url("../img/reg-btn.png");position: relative;z-index:21;margin:0 auto;margin-top:20%;}
 .reg:hover{background: url("../img/reg-btnh.png");}
-.step_box{width:1000px;position: absolute;left:0;top:0;}
-.step{margin-top:80px;}
+.step_box{width:4000px;}
+.step{width:1000px;float: left;}
 .step ol li{line-height:40px;margin-left:20px;}
 .step ol li span{color:#888;}
 .next-step,.prev-step,.Submit,.Experience,.fail{display: inline-block;width:100px;height:32px;background: url("../img/step_btn.png") 0 0;}
@@ -70,15 +70,10 @@ body{overflow: hidden;}
 .Experience:hover{background-position:0 -156px;}
 .fail{background-position:0 -213px;}
 .fail:hover{background-position:0 -265px;}
-.right_bar{position: absolute;right:30px;top:75px;bottom:35px;border-left:1px solid #e1e1e1;z-index:10;}
-.right_bar table{margin-left:-10px;}
-.right_bar table td{height:100px;}
-.number{display: inline-block;width:19px;height:19px;line-height:19px;font-size:12px;color:#fff;background: url("../img/ico.png") -34px -99px;text-align: center;position: relative;z-index:10;}
-.current .number{width:23px;height:23px;background-position:0 -126px;line-height:23px;left:-2px;}
-.txt_out{position: relative;}
-.right_bar table td .txt{display: block;height:26px;line-height:26px;background:#ccc;color:#fff;position:absolute;top:-2px;right:40px;padding: 0 20px 0 10px;min-width: 100px;opacity: 0;}
-.right_bar table td .txt span{display:block;min-width:200%;}
-.right_bar table td .current .txt{background: #59a7f9;opacity:1;}
+.top_nav{border-bottom:1px dotted #ccc;padding-bottom:20px;margin-top:-20px;}
+.right_bar li{float: left;}
+.right_bar li a{display:block;width:23px;height:23px;line-height:23px;margin-right:20px;text-align: center;color:#fff;background: url("../img/ico.png") -80px -143px;}
+.right_bar li.current a{background-position: 0 -126px;color:#fff;}
 .info{width:99%;}
 .info span{display: inline-block;line-height:26px;}
 .info-plus{background-color:#eee;width:110%;border:10px solid #eee;border-width:10px 0;margin-top:10px;}
