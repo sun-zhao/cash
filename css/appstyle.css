@@ -116,8 +116,10 @@ table.set-table td p.color-a{padding-left:2px;}
 .error_box a:hover .ico-back{background-position:-80px -100px;}
 .error_box a:hover .ico-index{background-position:-101px -100px;}
 .error_box a:hover{color:#347cdc;}
-
-
+.Agreement{height:450px;overflow-y: auto;padding:10px 10px;}
+.Agreement p{line-height:20px;padding-top:10px;color:#888;}
+.Agreement p.font14,.Agreement p.font18{color: #333;}
+.Agreement p.font14{padding:20px 0 10px 0;}
 
 
 
