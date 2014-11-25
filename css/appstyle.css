@@ -58,7 +58,7 @@ body{overflow: hidden;}
 .reg{display:block;width:180px;height:45px;background: url("../img/reg-btn.png");position: relative;z-index:21;margin:0 auto;margin-top:20%;}
 .reg:hover{background: url("../img/reg-btnh.png");}
 .step_box{width:4000px;}
-.step{width:1000px;float: left;}
+.step{width:1000px;float: left;padding-bottom: 200px;}
 .step ol li{line-height:40px;margin-left:20px;}
 .step ol li span{color:#888;}
 .next-step,.prev-step,.Submit,.Experience,.fail{display: inline-block;width:100px;height:32px;background: url("../img/step_btn.png") 0 0;}
