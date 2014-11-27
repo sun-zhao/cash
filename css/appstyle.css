@@ -56,7 +56,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .account_de td font{color:#53a000;}
 .account_de tbody tr:nth-child(2n) td{background-color:#f9fbfe;}
 .account_de .select{background:none;}
-.tab_list span{margin-right:20px;cursor: pointer;padding-left:5px;}
+.tab_list span{margin-right:20px;cursor: pointer;padding-left:5px;line-height:26px;position: relative;}
 .tab_list span:hover,.tab_list span.current{color:#347cdc;}
 .tab_list span em{display:inline-block;font-size:0;width:0;border-left:6px solid #fff;border-top:5px solid #fff;border-bottom:5px solid #fff;position:relative;top:-2px;left:-4px;}
 .tab_list span:hover em,.tab_list span.current em{border-left-color:#347cdc;}
@@ -129,7 +129,6 @@ table.set-table td p.color-a{padding-left:2px;}
 .Agreement p{line-height:20px;padding-top:10px;color:#888;}
 .Agreement p.font14,.Agreement p.font18{color: #333;}
 .Agreement p.font14{padding:20px 0 10px 0;}
-
 
 
 
