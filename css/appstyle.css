@@ -62,7 +62,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .tab_list span:hover em,.tab_list span.current em{border-left-color:#347cdc;}
 .Wallpaper{position:absolute;top:77px;bottom:40px;left:0;right:0;}
 .autoImg{position:absolute;overflow: hidden;bottom:0;right:15%;}
-.slogan{width:20%;position: absolute;left:50%;margin-left:-25%;z-index:20;top:20%;}
+.slogan{width:24%;position: absolute;left:50%;margin-left:-25%;z-index:20;top:20%;}
 .slogan img{width:100%;}
 .reg{display:block;width:180px;height:45px;background: url("../img/reg-btn.png");position: relative;z-index:21;margin:0 auto;margin-top:20%;}
 .reg:hover{background: url("../img/reg-btnh.png");}
